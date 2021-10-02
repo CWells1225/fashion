@@ -13,11 +13,12 @@
 	<h1> Create A Post </h1>
 </div>
 
-<form method="POST" action="/fashions">
+<form action="/fashions" method="POST">
 
 	<fieldset>
 		<label for = "item"> Item: </label> 
 		<input 
+		name ="item"
 		id = "name" 
 		type = "text"
 		placeholder="Enter Name of Fashion item"
@@ -26,18 +27,20 @@
 	</fieldset>
 
 	<fieldset>
-		<label for = "item"> Image: </label> 
+		<label for = "img"> Image: </label> 
 		<input 
+		name ="img"
 		id = "form-img" 
-		type = "img"
+		type = "text"
 		placeholder="Add Image Link"
 		>
 
 	</fieldset>
 
 	<fieldset>
-		<label for = "item"> Description: </label> 
+		<label for = "description"> Description: </label> 
 		<input 
+		name ="description"
 		id = "name" 
 		type = "text"
 		placeholder="Enter Description of Fashion Item"
@@ -48,6 +51,8 @@
 	<button class="create"> CREATE ! </button>
 
 </form>
+
+<button class="home"><a href="/fashions"> Back to Home Page</a></button>
 
 </body>
 

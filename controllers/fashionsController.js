@@ -84,9 +84,12 @@ router.get('/', (req, res) => {
 // new route
 
 router.get('/new', (req, res) => {
-
+  try{
 	res.render('new.ejs')
-
+	}
+  catch(err)
+  {res.send(err)
+  }
 })
 
 //show route 
