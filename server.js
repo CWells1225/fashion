@@ -43,7 +43,7 @@ app.use('/fashions', fashionsController)
 
 //to test
 app.get('/', (req, res) => {
-	res.send('test')
+	res.redirect('/fashions')
 })
 
 //Listeners
