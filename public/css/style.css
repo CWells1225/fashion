@@ -11,21 +11,21 @@ header{
 
 nav{
 	background: black;
-	height: 10vh;
+	height: 8vh;
 	width: 100%;
 	display: flex;
 	text-align: center;
 	text-decoration: none;
 	font-weight: bold;
 	color: ivory;
-	font-size: 13px;
+	font-size: 10px;
 }
 
 .logo{
 	width: 20%;
 	padding-left: 50px;
 	color: ivory;
-	font-size: 18px;
+	font-size: 10px;
 }
 
 .list-items{
