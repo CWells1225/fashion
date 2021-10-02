@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>show</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+
+
+<button class="home"><a href="/fashions"> Back to Home Page</a></button>
+
+
+	<h1><%=fashions.item%></h1>
+	<h2> <img src = "<%=fashions.img%>"> </h2>
+	<h3><%=fashions.description%></h3>
+
+
+<button class="edit"><a href="/fashions/<%=fashions.id%>/edit"> Edit Post</a></button>
+
+<br>
+
+<form action="/fashions/<%=fashions.id%>?_method=DELETE" method="POST">
+	<button class="delete">Delete</button>
+</form>
+
+
+
+
+
+</body>
+</html>

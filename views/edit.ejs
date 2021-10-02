@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title> Edit </title>
+	<link rel="stylesheet" type="text/css" href="../../css/style.css">
+</head>
+
+<body>
+	<div class="editheader">
+	<h1> Edit A Post </h1>
+	</div>
+
+
+	<form action ="/fashions/<%=fashions.id%>?_method=PUT" method="POST">
+		<fieldset>
+		<label for="item">Item: 
+		<input 
+		type="text" 
+		name="item" 
+		value="<%=fashions.item%>">
+		</label><br>
+		<label for="item">Image: 
+		<input 
+		type="text" 
+		name="img" 
+		value="<%=fashions.img%>">
+		</label><br>
+		<label for="description">Description: 
+		<input 
+		type="text" 
+		name="description" 
+		value="<%=fashions.description%>">
+		</label><br>
+
+		<button class="submit"> EDIT </button>
+		</fieldset>
+		</form>
+
+</body>
+</html>

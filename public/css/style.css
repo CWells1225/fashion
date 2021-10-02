@@ -1,0 +1,146 @@
+. {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header{
+	height: 70vh;
+	width: 200vh;
+}
+
+nav{
+	background: black;
+	height: 10vh;
+	width: 100%;
+	display: flex;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	color: ivory;
+	font-size: 13px;
+}
+
+.logo{
+	width: 20%;
+	padding-left: 50px;
+	color: ivory;
+	font-size: 18px;
+}
+
+.list-items{
+	display: flex;
+	color: ivory;
+	list-style: none;
+	width: 50%;
+	justify-content: space-around;
+
+}
+
+.list-items a{
+	text-decoration: none;
+	font-weight: bold;
+	color: ivory;
+	font-size: 13px;
+}
+
+a{
+	text-decoration: none;
+	color: ivory;
+
+}
+
+body{
+	background: ivory;
+	
+}
+  	
+.index{
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 300px 300px 300px;
+  	list-style: none;
+  	margin: -400px 200px 100px 200px; 
+  	justify-content: space-between;
+}
+
+.new{
+	font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 50px 10px 100px 10px;
+    }
+
+label {
+    font-family: sans-serif;
+     font-weight: 10px;
+     color: black;
+     display: block;
+    }
+
+input {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.create, .submit {
+  background: black;
+  border-radius: 8px;
+  border: none;
+  color: ivory;
+  padding: 15px 32px;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.home{
+  background: black;
+  border-radius: 8px;
+  border: none;
+  color: ivory;
+}
+
+.edit,.delete{
+  background: black;
+  border-radius: 8px;
+  border: none;
+  color: ivory;
+  padding: 15px 32px;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.editheader{
+	font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+h1,h2,h3{
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  justify-content: center;
+  display: flex;
+}
+
+
+
