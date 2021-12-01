@@ -1,5 +1,7 @@
 # Fashion Lookbook Site 
 
+https://inspirewear.herokuapp.com/fashions
+
 I created a website that allows users to view, post, edit/ delete different fashion post. Similar to lookbook, I wanted to create a webssite that allowed users to inspire others by posting different styles or be inspired.   
 
 
@@ -23,3 +25,5 @@ MVP Goals
 Stretch Goals
 
 -signup & login (didn't get to add this but will definitely add this function later); would like to exclude posting, editing, and deleting options to  users who have signed up. 
+
+-would like to adjust the styling so app looks the same no matter what device you're viewing it from 
